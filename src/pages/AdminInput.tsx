@@ -240,7 +240,7 @@ const AdminInput = () => {
                 <Input
                   id="activityData"
                   type="number"
-                  step="0.01"
+                  step="any"
                   placeholder="e.g., 1000"
                   value={formData.activityData}
                   onChange={(e) => updateField("activityData", e.target.value)}
@@ -253,7 +253,7 @@ const AdminInput = () => {
                 <Input
                   id="emissionFactor"
                   type="number"
-                  step="0.01"
+                  step="any"
                   placeholder="e.g., 0.73"
                   value={formData.emissionFactor}
                   disabled
