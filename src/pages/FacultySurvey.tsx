@@ -144,7 +144,7 @@ const FacultySurvey = () => {
         return (
           <Input
             type="number"
-            step="0.01"
+            step="any"
             min="0"
             value={value || ''}
             onChange={(e) => handleResponseChange(questionId, e.target.value)}
